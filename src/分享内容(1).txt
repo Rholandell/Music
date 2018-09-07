@@ -1,0 +1,9 @@
+1文件对比工具：Beyond Compare
+
+2抓包工具：Fiddler
+使用说明：https://www.cnblogs.com/yyhh/p/5140852.html 
+
+3接口调试工具：postman
+使用说明：https://blog.csdn.net/fxbin123/article/details/80428216
+
+http://newsapi.sina.cn/?resource=nav/newsList&lDid=11f3ea51-f1e7-414f-a2dd-6dc8bce1f953&oldChwm=13500_0052&modifytime=1529488345&city=WMXX2971&loginType=1&authToken=6d41d96eb2b21b7d8c38fbb41f9172ed&link=&needLiveChannel=1&authGuid=6410666114023696028&ua=Xiaomi-Mi+Note+3__sinanews__6.9.2__android__7.1.1&deviceId=8d2f3194791e4a12&connectionType=2&resolution=1080x1920&weiboUid=1841967415&mac=02%3A00%3A00%3A00%3A00%3A00&osVersion=7.1.1&chwm=14010_0001&weiboSuid=99306f4628&andId=d33a6ea239c05768&from=6069295012&sn=c8d4c4e6&aId=01Am3zTDxwjiNwol8kXLX8wq-XB4ASkXXK0SElMFH5QTko5as.&deviceIdV1=8d2f3194791e4a12&osSdk=25&abver=1529563612692&fromPush=0&accessToken=2.00rrheACe3vYNC673239187eWbEQTB&firstTime=1514443979&abt=349_347_345_327_314_307_299_297_293_291_287_281_277_271_267_255_253_251_249_241_237_231_229_228_226_217_215_207_203_191_171_153_149_143_141_135_128_113_111_61_57_50_45_37_26_21_18_16_13&seId=8b822a603e&imei=865499031016122&deviceModel=Xiaomi__Xiaomi__Mi+Note+3&location=0.0%2C0.0&userType=update&authUid=6410666601624130158&urlSign=9ed0af003f&rand=91

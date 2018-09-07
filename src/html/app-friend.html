@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script>
+        var num = 1/window.devicePixelRatio;
+        document.write('<meta name="viewport" content="width=device-width,initial-scale='+ num +',user-scalable=no,minimum-scale='+ num +',maximum-scale='+  num +'">');
+        var width = document.documentElement.clientWidth;
+        document.documentElement.style.fontSize = width/25+'px';
+  	</script>
+    <title>Document</title>
+
+    <!-- 首页内容相关样式 -->
+    <link rel="stylesheet" href="../css/index.css">
+
+    <!-- 导航条相关样式 -->
+    <link rel="stylesheet" href="../css/nav.css">
+
+    <!-- 列表页相关样式 -->
+    <link rel="stylesheet" href="../css/list.css">
+
+    <!-- 首页分支-朋友相关样式 -->
+    <link rel="stylesheet" href="../css/friend.css">
+
+    <!-- 公共部分 -->
+    <link rel="stylesheet" href="../css/base.css">
+
+    <!-- 工具类 -->
+    <link rel="stylesheet" href="../css/tools.css">
+
+    <!-- 样式重置 -->
+    <link rel="stylesheet" href="../css/reset.css">
+
+</head>
+<body>
+    <header class="index-head">
+        <div class="headbox details-back-red">
+            <nav class="base-nav  details-back-red">
+                <div class="base-menubox">
+                    <div class="baseL156">
+                            <div class="baseNum">11</div>
+                            <div class="baseX"></div>
+                            <div class="baseX"></div>
+                            <div class="baseX"></div>
+                    </div>
+                    <div class="base-menu"></div>
+                </div>
+                <div class="base native"></div>
+                <div class="base home"></div>
+                <div class="base expand"></div>
+                <div class="base search"></div>
+            </nav>
+            <nav class="nav2">
+                <div class="TuiJian active">推荐
+                    <div class="select"></div>
+                </div>
+                <div class="friend">朋友</div>
+                <div class="RS">电台</div>
+            </nav>
+        </div>
+    </header>
+    <!-- 打开menu的时候要给section加上position: fixed; -->
+    <section> 
+       <div class="UP">精彩别错过 〉
+           <ul class="up-list">
+               <!-- 一个li的宽度为202 -->
+               <li class="up-item">
+                   <div class="up-o"></div>
+                   <img src="../img/content-pic/img.jpg" class="up-hp">
+                   <img src="../img/content-pic/sicon1.png" class="up-sicon">
+                   <span class="up-name">ElvinsJ</span>
+               </li>
+               <li class="up-item">
+                    <div class="up-o"></div>
+                    <img src="../img/content-pic/img.jpg" class="up-hp">
+                    <img src="../img/content-pic/sicon1.png" class="up-sicon">
+                    <span class="up-name">by 账号已注销</span>
+               </li>
+               <li class="up-item">
+                    <div class="up-o"></div>
+                    <img src="../img/content-pic/img.jpg" class="up-hp">
+                    <img src="../img/content-pic/sicon1.png" class="up-sicon">
+                    <span class="up-name">ElvinsJ</span>
+               </li>
+               <li class="up-item">
+                    <div class="up-o"></div>
+                    <img src="../img/content-pic/img.jpg" class="up-hp">
+                    <img src="../img/content-pic/sicon2.png" class="up-sicon">
+                    <span class="up-name">ElvinsJ</span>
+               </li>
+               <li class="up-item">
+                    <div class="up-o"></div>
+                    <img src="../img/content-pic/img.jpg" class="up-hp">
+                    <img src="../img/content-pic/sicon1.png" class="up-sicon">
+                    <span class="up-name">ElvinsJ</span>
+               </li>
+           </ul>
+           <div class="lk"></div>
+       </div> 
+       <!-- 动态 -->
+       <div class="friend-dongtai">
+           <img src="../img/content-pic/img.jpg" class="dongtai-hp">
+           <div class="dongtai-content">
+               <!-- 发布者与时间 -->
+               <div class="dongtai-content-top">
+                    <div class="dongtai-nameAndTime">
+                            <span class="dongtai-name">
+                                <a href="#">凋零灬雪月</a>
+                             分享单曲</span>
+                             <span class="dongtai-time">5月30日</span>
+                        </div>
+                        <div class="dongtai-attention"></div>
+               </div>
+               <!-- 内容与图片 -->
+               <div class="dongtai-content-text">娇梅千万，只折一枝怜，声优三千，只听一首曲!愿南酱的膝盖可以康复！</div>
+               <ul class="dongtai-content-pic">
+                   <li>
+                       <img src="../img/friend-pic/1.jpg" class="dongtai-content-pics">
+                   </li>
+                   <li>
+                        <img src="../img/friend-pic/2.jpg" class="dongtai-content-pics">
+                   </li>
+                   <li>
+                        <img src="../img/friend-pic/3.jpg" class="dongtai-content-pics">
+                   </li>
+                   <li>
+                        <img src="../img/friend-pic/4.png" class="dongtai-content-pics">
+                   </li>
+                   <li>
+                        <img src="../img/friend-pic/5.jpg" class="dongtai-content-pics">
+                   </li>
+               </ul>
+               <!-- 插入音乐 -->
+               <div class="medium-music">
+                   <img src="../img/friend-pic/1.jpg" class="medium-music-pic">
+                   <ul class="medium-music-text">
+                        <li class="medium-music-tiele">雪の華</li>
+                        <li class="medium-music-name">南條愛乃</li>
+                   </ul>
+               </div>
+               <!-- 签名 -->
+               <div class="signature">——请随我突破次元壁深入声优们的小日常</div>
+               <!-- 点赞，评论，分享 -->
+               <div class="dongtai-btn">
+                   <div class="dongtai-btns dongtai-support">862</div>
+                   <div class="dongtai-btns dongtai-comment">150</div>
+                   <div class="dongtai-btns dongtai-share">27</div>
+                   <div class="dongtai-option"></div>
+               </div>
+           </div>
+       </div>
+       <div class="friend-dongtai">
+            <img src="../img/content-pic/img.jpg" class="dongtai-hp">
+            <div class="dongtai-content">
+                <!-- 发布者与时间 -->
+                <div class="dongtai-content-top">
+                     <div class="dongtai-nameAndTime">
+                             <span class="dongtai-name">
+                                 <a href="#">凋零灬雪月</a>
+                              分享单曲</span>
+                              <span class="dongtai-time">5月30日</span>
+                         </div>
+                         <div class="dongtai-attention"></div>
+                </div>
+                <!-- 内容与图片 -->
+                <div class="dongtai-content-text">娇梅千万，只折一枝怜，声优三千，只听一首曲!愿南酱的膝盖可以康复！</div>
+                <ul class="dongtai-content-pic">
+                    <li>
+                        <img src="../img/friend-pic/1.jpg" class="dongtai-content-pics">
+                    </li>
+                    <li>
+                         <img src="../img/friend-pic/2.jpg" class="dongtai-content-pics">
+                    </li>
+                    <li>
+                         <img src="../img/friend-pic/3.jpg" class="dongtai-content-pics">
+                    </li>
+                    <li>
+                         <img src="../img/friend-pic/4.png" class="dongtai-content-pics">
+                    </li>
+                    <li>
+                         <img src="../img/friend-pic/5.jpg" class="dongtai-content-pics">
+                    </li>
+                </ul>
+                <!-- 插入音乐 -->
+                <div class="medium-music">
+                    <img src="../img/friend-pic/1.jpg" class="medium-music-pic">
+                    <ul class="medium-music-text">
+                         <li class="medium-music-tiele">雪の華</li>
+                         <li class="medium-music-name">南條愛乃</li>
+                    </ul>
+                </div>
+                <!-- 签名 -->
+                <div class="signature">——请随我突破次元壁深入声优们的小日常</div>
+                <!-- 点赞，评论，分享 -->
+                <div class="dongtai-btn">
+                    <div class="dongtai-btns dongtai-support">862</div>
+                    <div class="dongtai-btns dongtai-comment">150</div>
+                    <div class="dongtai-btns dongtai-share">27</div>
+                    <div class="dongtai-option"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- 底部播放器 -->
+    <footer>
+        <div class="player">
+            <div class="playerL">
+                <img src="../img/footer-pic/HP.png">
+                <div class="font-box">
+                    <span class="music-name">桜ひらり</span>
+                    <span class="singer-lyrics">高野健一</span>
+                </div>
+            </div>
+            <div class="playerR">
+                <!-- pausebtn -->
+                <div class="playbtn "></div>
+                <div class="footer-list"></div>
+            </div>
+        </div>
+    </footer>
+<!-- 用户信息与设置 -->
+    <div class="menu">
+        <div class="menu-ui">
+            <img class="menu-HP" src="../img/content-pic/img.jpg" alt="">
+            <div class="menu-namebox">
+                <div class="menu-namebox-L">凋零灬雪月
+                    <img class="diamond" src="../img/menu-pic/diamond.png" alt="">
+                    <img class="lv" src="../img/menu-pic/lv7.png" alt="">
+                </div>
+                <div class="menu-sign-R">签到</div>
+            </div>
+        </div>
+        <ul class="set-item">
+            <li class="set-items">我的消息
+                <div class="news">11</div>
+            </li>
+            <li class="set-items">我的VIP
+                <span class="set-items-font">2018.06.07到期</span>
+            </li>
+            <li class="set-items">商城</li>
+            <li class="set-items">游戏推荐Beta</li>
+            <li class="set-items">在线听歌免流量</li>
+            <li class="set-items">我的好友</li>
+            <li class="set-items">附近的人
+                    <span class="ball"></span>
+                <span class="set-items-man">网易云音乐为梦发声，赞助校园活动</span>
+                
+            </li>
+            <li class="set-items">个性换肤
+                <span class="set-items-font">官方红</span>
+            </li>
+            <li class="set-items">听歌识曲</li>
+            <li class="set-items">定时停止播放</li>
+            <li class="set-items">扫一扫</li>
+            <li class="set-items">音乐闹钟</li>
+            <li class="set-items">驾驶模式</li>
+            <li class="set-items">音乐云盘</li>
+            <li class="set-items">优惠券</li>
+        </ul>
+        <div class="menu-bottom">
+            <div class="menu-bottom-btn">夜间模式</div>
+            <div class="menu-bottom-btn">设置</div>
+            <div class="menu-bottom-btn">退出</div>
+        </div>
+    </div>
+</body>
+</html>

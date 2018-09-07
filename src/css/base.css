@@ -1,0 +1,89 @@
+.player {
+  width: 25rem;
+  height: 3.40277778rem;
+  background: #fff;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  padding: 0.41666667rem;
+  z-index: 2;
+}
+.player .playerL {
+  width: 18.63425926rem;
+  height: 2.56944444rem;
+  float: left;
+}
+.player .playerL img {
+  width: 2.56944444rem;
+  height: 2.56944444rem;
+  border-radius: 0.09259259rem;
+  margin-right: 0.41666667rem;
+  display: inline-block;
+  vertical-align: top;
+}
+.player .playerL .font-box {
+  height: 2.56944444rem;
+  display: inline-block;
+}
+.player .playerL .font-box .music-name {
+  font-size: 0.83333333rem;
+  color: #000;
+  line-height: 1.34259259rem;
+  display: block;
+}
+.player .playerL .font-box .singer-lyrics {
+  font-size: 0.69444444rem;
+  color: #8a8a8a;
+  line-height: 1.22685185rem;
+  display: block;
+}
+.player .playerR {
+  width: 5.53240741rem;
+  height: 2.56944444rem;
+  padding: 0.41666667rem 0 0.41666667rem 0.41666667rem;
+  box-sizing: border-box;
+  float: right;
+}
+.player .playerR .playbtn {
+  width: 1.8287037rem;
+  height: 1.8287037rem;
+  box-sizing: border-box;
+  background: url(../img/footer-pic/playbtn.png) no-repeat 0.625rem center;
+  background-size: 0.5787037rem 0.78703704rem;
+  border: 0.09259259rem solid #cccccc;
+  border-radius: 50%;
+  float: left;
+}
+.player .playerR .pausebtn {
+  width: 1.8287037rem;
+  height: 1.8287037rem;
+  box-sizing: border-box;
+  background: url(../img/footer-pic/pausebtn.png) no-repeat 0.5rem center;
+  background-size: 0.5787037rem 0.78703704rem;
+  border: 0.09259259rem solid #cccccc;
+  border-radius: 50%;
+  float: left;
+}
+.player .playerR .footer-list {
+  width: 2.22222222rem;
+  height: 1.8287037rem;
+  background: url(../img/footer-pic/list.png) no-repeat 0.41666667rem 0.27777778rem;
+  background-size: 1.43518519rem 1.2037037rem;
+  float: right;
+}
+.ItemImg1 {
+  width: 7.91666667rem;
+  height: 7.91666667rem;
+  border-radius: 0.18518519rem;
+  background: linear-gradient(#aaaaaa -120%, rgba(255, 166, 0, 0) 80%, #aaaaaa 120%);
+  position: absolute;
+  z-index: 2;
+}
+.search-list {
+  position: fixed;
+  padding-top: 5.27777778rem;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1;
+}

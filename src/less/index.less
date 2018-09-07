@@ -1,0 +1,114 @@
+@rem:43.2rem;
+#indexContent{
+    transition:.5s;
+}
+.index-head{
+    width: 1080/@rem;
+    height: 360/@rem;
+    padding-top: 1/@rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.LB-BOX{
+    height: 306/@rem;
+    background: #e0433a;
+
+    .lb-pic{
+        width: 1080/@rem;
+        height: 388/@rem;
+        position: relative;
+        overflow: hidden;
+
+        .lb-pic-box{
+            width: 8640/@rem;
+            height: 388/@rem;
+            font-size: 0;
+            position: absolute;
+            top: 0;
+            left:0;
+            
+
+            img{
+                width: 1044/@rem;
+                height: 388/@rem;
+                border-radius: 12/@rem;
+                margin: 0 18/@rem;
+            } 
+        }
+
+        .pic-btnbox{
+            width: 232/@rem;
+            height: 28/@rem;
+            position: absolute;
+            bottom:36/@rem;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            font-size: 0;
+
+            .pic-btns{
+                width: 28/@rem;
+                height: 28/@rem;
+                border-radius: 50%;
+                background: rgba(171, 181, 183, .8);
+                display: inline-block;
+                margin: 0 15/@rem;
+            }
+            .active{
+                background: rgba(199, 56, 50, .9);
+            }
+        }
+    }
+        
+}
+
+.content-nav{
+    height: 229/@rem;
+    font-size: 0;
+    margin-top: 144/@rem;
+    margin-bottom: 29/@rem;
+    display: flex;
+    justify-content: space-around;
+
+
+    .contentNav{
+        width: 146/@rem;
+        height: 229/@rem;
+        display: inline-block;
+        position: relative;
+
+        .CN-font{
+            width: 146/@rem;
+            height: 83/@rem;
+            font-size: 34/@rem;
+            text-align: center;
+            line-height: 83/@rem;
+            font-family: '微软雅黑';
+            position: absolute;
+            bottom: 0;
+        }
+    }
+    .contentNav:nth-child(1){
+        background: url(../img/content-pic/1-1.png) no-repeat;
+        background-size: 146/@rem 146/@rem;
+    }
+    .contentNav:nth-child(2){
+        background: url(../img/content-pic/2-1.png) no-repeat;
+        background-size: 146/@rem 146/@rem;
+    }
+    .contentNav:nth-child(3){
+        background: url(../img/content-pic/3-1.png) no-repeat;
+        background-size: 146/@rem 146/@rem;
+    }
+    .contentNav:nth-child(4){
+        background: url(../img/content-pic/4-1.png) no-repeat;
+        background-size: 146/@rem 146/@rem;
+    }
+
+}
+.line{
+    width: 1080/@rem;
+    height: 2/@rem;
+    background: #ebeff2;
+}

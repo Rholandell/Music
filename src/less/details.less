@@ -1,0 +1,193 @@
+@rem:43.2rem;
+
+
+.details-section{
+    position: absolute;
+    top: 0;
+    .details-top-content{
+        height: 936/@rem;
+        padding: 288/@rem 60/@rem 0 60/@rem;
+        box-sizing: border-box;
+        .details-top-content-box{
+            width: 958/@rem;
+            height: 612/@rem;
+            position: relative;
+            z-index: 1;
+            font-size: 0;
+
+            .details-top-content-box-top{
+                width: 960/@rem;
+                height: 378/@rem;
+                // 海报
+                .details-poster{
+                    width: 378/@rem;
+                    height: 378/@rem;
+                    border-radius: 8/@rem;
+                    background:url(../img/menu-pic/back.jpg) no-repeat;
+                    background-size:  378/@rem 378/@rem;
+                    display: inline-block;
+                }
+                .details-title-name{
+                    width: 529/@rem;
+                    float: right;
+
+                    .details-title{
+                        width: 529/@rem;
+                        padding-top: 20/@rem;
+                        padding-bottom: 70/@rem;
+                        display: inline-block;
+                        vertical-align: top;
+                        font-size: 50/@rem;
+                        line-height: 72/@rem;
+                        color: #fff;
+                    }
+                    .details-namebox{
+                        width: 520/@rem;
+                        height: 80/@rem;
+                        display: inline-block;
+                        vertical-align: top;
+                        font-size: 50/@rem;
+                        line-height: 72/@rem;
+                        color: #dcebf2;
+
+                        .details-HP{
+                            width: 80/@rem;
+                            height: 80/@rem;
+                            border-radius: 50%;
+                        }
+                        .details-name{
+                            font-size: 36/@rem;
+                            line-height: 80/@rem;
+                            text-indent: 28/@rem;
+                            vertical-align: top;
+                        }
+                    }
+                }
+            }
+            .details-top-content-box-bottom{
+                width: 960/@rem;
+                height: 234/@rem;
+                .details-btn{
+                    width: 195/@rem;
+                    height: 234/@rem;
+                    background: lightcoral;
+                    display: inline-block;
+                    margin-right: 60/@rem;
+                    font-size: 30/@rem;
+                    line-height: 350/@rem;
+                    text-align: center;
+                    color: #d4e1e7;
+                }
+                .details-btn:nth-child(1){
+                    background: url(../img/details-pic/1.png) no-repeat 68/@rem 82/@rem;
+                    background-size: 59/@rem 57/@rem;
+                }
+                .details-btn:nth-child(2){
+                    background: url(../img/details-pic/2.png) no-repeat 70/@rem 82/@rem;
+                    background-size: 56/@rem 56/@rem;
+                }
+                .details-btn:nth-child(3){
+                    background: url(../img/details-pic/3.png) no-repeat 68/@rem 82/@rem;
+                    background-size: 59/@rem 56/@rem;
+                }
+                .details-btn:nth-child(4){
+                    background: url(../img/details-pic/4.png) no-repeat 70/@rem 82/@rem;
+                    background-size: 55/@rem 55/@rem;
+                    margin: 0;
+                }
+            }
+        }
+
+    }
+    .details-bottom-content{
+        width: 1080/@rem;
+        position: relative;
+        z-index: 1;
+        //全部播放与收藏
+        .playAndCollection{
+            width: 1080/@rem;
+            height: 137/@rem;
+            border-radius: 30/@rem 30/@rem 0 0;
+            background: #fff url(../img/details-pic/5.png) no-repeat 45/@rem 36/@rem;
+            background-size: 60/@rem 60/@rem;
+            .playAll{
+                width: 685/@rem;
+                height: 134/@rem;
+                font-size: 44/@rem;
+                line-height: 134/@rem;
+                text-indent: 150/@rem;
+                float: left;
+                span{
+                    font-size: 40/@rem;
+                    color: #96979b;
+                }
+            }
+            .collection{
+                width: 395/@rem;
+                font-size: 44/@rem;
+                line-height: 134/@rem;
+                text-align: center;
+                border-radius: 0 30/@rem 0 0;
+                background: #d63c34;
+                color: #fff;
+                float: right;
+            }
+        }
+    }
+}
+
+//音乐列表
+
+.details-item-music{
+    width: 1080/@rem;
+    height: 160/@rem;
+    border-top: 2/@rem solid #eeeff1;
+    .details-item-num{
+        width: 150/@rem;
+        height: 160/@rem;
+        font-size: 36/@rem;
+        line-height: 160/@rem;
+        text-align: center;
+        color: #9b9c9e;
+        float: left;
+    }
+    .details-item-musicNameAndNickName{
+        width: 800/@rem;
+        height: 160/@rem;
+        padding-top: 23/@rem;
+        padding-bottom: 16/@rem;
+        box-sizing: border-box;
+        float: left;
+        .details-item-musicName{
+            width: 80%;
+            font-size: 44/@rem;
+            line-height: 66/@rem;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            display: block;
+        }
+        .details-item-NickName{
+            width: 500/@rem;
+            font-size: 34/@rem;
+            line-height: 56/@rem;
+            color: #9b9c9e;
+            display: block;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            .SQ-icon{
+                width: 36/@rem;
+                height: 24/@rem;
+                margin-right: 10/@rem
+            }
+        }
+    }
+    .details-item-options{
+        width: 130/@rem;
+        height: 160/@rem;
+        background: url(../img/list-pic/1-7.png) no-repeat 53/@rem 60/@rem;
+        background-size: 10/@rem 46/@rem; 
+        float: right;
+    }
+}

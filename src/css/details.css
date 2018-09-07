@@ -1,0 +1,184 @@
+.details-section {
+  position: absolute;
+  top: 0;
+}
+.details-section .details-top-content {
+  height: 21.66666667rem;
+  padding: 6.66666667rem 1.38888889rem 0 1.38888889rem;
+  box-sizing: border-box;
+}
+.details-section .details-top-content .details-top-content-box {
+  width: 22.17592593rem;
+  height: 14.16666667rem;
+  position: relative;
+  z-index: 1;
+  font-size: 0;
+}
+.details-section .details-top-content .details-top-content-box .details-top-content-box-top {
+  width: 22.22222222rem;
+  height: 8.75rem;
+}
+.details-section .details-top-content .details-top-content-box .details-top-content-box-top .details-poster {
+  width: 8.75rem;
+  height: 8.75rem;
+  border-radius: 0.18518519rem;
+  background: url(../img/menu-pic/back.jpg) no-repeat;
+  background-size: 8.75rem 8.75rem;
+  display: inline-block;
+}
+.details-section .details-top-content .details-top-content-box .details-top-content-box-top .details-title-name {
+  width: 12.24537037rem;
+  float: right;
+}
+.details-section .details-top-content .details-top-content-box .details-top-content-box-top .details-title-name .details-title {
+  height: 4rem;
+  width: 12.24537037rem;
+  padding-top: 0.46296296rem;
+  padding-bottom: 1.62037037rem;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1.15740741rem;
+  line-height: 1.66666667rem;
+  color: #fff;
+  
+}
+.details-section .details-top-content .details-top-content-box .details-top-content-box-top .details-title-name .details-namebox {
+  width: 12.03703704rem;
+  height: 1.85185185rem;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1.15740741rem;
+  line-height: 1.66666667rem;
+  color: #dcebf2;
+}
+.details-section .details-top-content .details-top-content-box .details-top-content-box-top .details-title-name .details-namebox .details-HP {
+  width: 1.85185185rem;
+  height: 1.85185185rem;
+  border-radius: 50%;
+}
+.details-section .details-top-content .details-top-content-box .details-top-content-box-top .details-title-name .details-namebox .details-name {
+  font-size: 0.83333333rem;
+  line-height: 1.85185185rem;
+  text-indent: 0.64814815rem;
+  vertical-align: top;
+}
+.details-section .details-top-content .details-top-content-box .details-top-content-box-bottom {
+  width: 22.22222222rem;
+  height: 5.41666667rem;
+}
+.details-section .details-top-content .details-top-content-box .details-top-content-box-bottom .details-btn {
+  width: 4.51388889rem;
+  height: 5.41666667rem;
+  background: lightcoral;
+  display: inline-block;
+  margin-right: 1.38888889rem;
+  font-size: 0.69444444rem;
+  line-height: 8.10185185rem;
+  text-align: center;
+  color: #d4e1e7;
+}
+
+.details-section .details-top-content .details-top-content-box .details-top-content-box-bottom .details-btn:nth-child(1) {
+  background: url(../img/details-pic/1.png) no-repeat 1.57407407rem 1.89814815rem;
+  background-size: 1.36574074rem 1.31944444rem;
+}
+.details-section .details-top-content .details-top-content-box .details-top-content-box-bottom .details-btn:nth-child(2) {
+  background: url(../img/details-pic/2.png) no-repeat 1.62037037rem 1.89814815rem;
+  background-size: 1.2962963rem 1.2962963rem;
+}
+.details-section .details-top-content .details-top-content-box .details-top-content-box-bottom .details-btn:nth-child(3) {
+  background: url(../img/details-pic/3.png) no-repeat 1.57407407rem 1.89814815rem;
+  background-size: 1.36574074rem 1.2962963rem;
+}
+.details-section .details-top-content .details-top-content-box .details-top-content-box-bottom .details-btn:nth-child(4) {
+  background: url(../img/details-pic/4.png) no-repeat 1.62037037rem 1.89814815rem;
+  background-size: 1.27314815rem 1.27314815rem;
+  margin: 0;
+}
+.details-section .details-top-content {
+  width: 25rem;
+  position: relative;
+  z-index: 1;
+}
+.details-section  .playAndCollection {
+  width: 25rem;
+  height: 3.1712963rem;
+  border-radius: 0.69444444rem 0.69444444rem 0 0;
+  background: #ffffff url(../img/details-pic/5.png) no-repeat 1.04166667rem 0.83333333rem;
+  background-size: 1.38888889rem 1.38888889rem;
+}
+.details-section  .playAndCollection .playAll {
+  width: 15.85648148rem;
+  height: 3.10185185rem;
+  font-size: 1.01851852rem;
+  line-height: 3.10185185rem;
+  text-indent: 3.47222222rem;
+  float: left;
+}
+.details-section  .playAndCollection .playAll span {
+  font-size: 0.92592593rem;
+  color: #96979b;
+}
+.details-section  .playAndCollection .collection {
+  width: 9.14351852rem;
+  font-size: 1.01851852rem;
+  line-height: 3.10185185rem;
+  text-align: center;
+  border-radius: 0 0.69444444rem 0 0;
+  background: #d63c34;
+  color: #fff;
+  float: right;
+}
+.details-item-music {
+  width: 25rem;
+  height: 3.7037037rem;
+  border-top: 0.0462963rem solid #eeeff1;
+}
+.details-item-music .details-item-num {
+  width: 3.47222222rem;
+  height: 3.7037037rem;
+  font-size: 0.83333333rem;
+  line-height: 3.7037037rem;
+  text-align: center;
+  color: #9b9c9e;
+  float: left;
+}
+.details-item-music .details-item-musicNameAndNickName {
+  width: 18.51851852rem;
+  height: 3.7037037rem;
+  padding-top: 0.53240741rem;
+  padding-bottom: 0.37037037rem;
+  box-sizing: border-box;
+  float: left;
+}
+.details-item-music .details-item-musicNameAndNickName .details-item-musicName {
+  width: 80%;
+  font-size: 1.01851852rem;
+  line-height: 1.52777778rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+}
+.details-item-music .details-item-musicNameAndNickName .details-item-NickName {
+  width: 11.57407407rem;
+  font-size: 0.78703704rem;
+  line-height: 1.2962963rem;
+  color: #9b9c9e;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.details-item-music .details-item-musicNameAndNickName .details-item-NickName .SQ-icon {
+  width: 0.83333333rem;
+  height: 0.55555556rem;
+  margin-right: 0.23148148rem;
+}
+.details-item-music .details-item-options {
+  width: 3.00925926rem;
+  height: 3.7037037rem;
+  background: url(../img/list-pic/1-7.png) no-repeat 1.22685185rem 1.38888889rem;
+  background-size: 0.23148148rem 1.06481481rem;
+  float: right;
+}

@@ -1,0 +1,118 @@
+.user-top-content {
+  width: 25rem;
+  height: 21.2962963rem;
+  padding: 7.80092593rem 0.94907407rem 0 1.27314815rem;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+}
+.user-top-content .user-top-content-box {
+  width: 17.4537037rem;
+  float: left;
+}
+.user-top-content .user-top-content-box .user-HP {
+  width: 5.5787037rem;
+  height: 5.5787037rem;
+  border-radius: 50%;
+  margin-bottom: 1.15740741rem;
+}
+.user-top-content .user-top-content-box .user-name {
+  font-size: 1.06481481rem;
+  line-height: 1.85185185rem;
+  font-weight: 900;
+  color: #fff;
+}
+.user-top-content .user-top-content-box .concernAndFan {
+  font-size: 0.87962963rem;
+  line-height: 1.66666667rem;
+  color: #e0e0e0;
+  margin-bottom: 0.23148148rem;
+}
+.user-top-content .user-top-content-box .concernAndFan .concern {
+  margin-right: 0.87962963rem;
+}
+.user-top-content .user-top-content-box .concernAndFan .fan {
+  margin-left: 0.87962963rem;
+}
+.user-top-content .user-top-content-box ul {
+  height: 1.15740741rem;
+}
+.user-top-content .user-top-content-box ul .user-slh {
+  margin: 0 0.23148148rem;
+  padding: 0 0.5787037rem;
+  font-size: 0.69444444rem;
+  line-height: 1.15740741rem;
+  border-radius: 0.5787037rem;
+  background: chocolate;
+  display: inline-block;
+  vertical-align: top;
+  color: #fff;
+}
+.user-top-content .user-top-content-box ul .user-svip {
+  text-indent: 0.92592593rem;
+  background: rgba(221, 102, 36, 0.7) url(../img/menu-pic/diamond.png) no-repeat 0.55555556rem 0.27777778rem;
+  background-size: 0.81018519rem 0.69444444rem;
+}
+.user-top-content .user-top-content-box ul .user-LV {
+  width: 1.48148148rem;
+  height: 1.15740741rem;
+  background: rgba(255, 255, 255, 0.7) url(../img/user-lv.png) no-repeat 0.69444444rem 0.32407407rem;
+  background-size: 1.31944444rem 0.55555556rem;
+}
+.user-top-content .user-top-content-box ul .user-home {
+  background: rgba(255, 255, 255, 0.7);
+}
+.user-bottom-content {
+  width: 25rem;
+  position: relative;
+  z-index: 1;
+}
+.user-bottom-content .user-nav {
+  width: 25rem;
+  height: 2.77777778rem;
+  border-radius: 0.69444444rem 0.69444444rem 0 0;
+  background: #fff ;
+  background-size: 1.38888889rem 1.38888889rem;
+}
+.user-bottom-content .user-nav .user-nav-btns {
+  width: 8.33333333rem;
+  height: 2.77777778rem;
+  font-size: 0.92592593rem;
+  line-height: 2.77777778rem;
+  text-align: center;
+  position: relative;
+  float: left;
+}
+.user-bottom-content .user-nav .user-nav-btns .user-active {
+  width: 2.08333333rem;
+  height: 0.13888889rem;
+  background: #d04035;
+  border-radius: 0.06944444rem;
+  position: absolute;
+  top: 2.08333333rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+}
+.user-bottom-content .user-nav .user-nav-btns:nth-child(1) {
+  border-radius: 0.69444444rem 0 0 0;
+}
+.user-bottom-content .user-nav .user-nav-btns:nth-child(3) {
+  border-radius: 0 0.69444444rem 0 0;
+}
+.user-bottom-content .user-nav .active {
+  font-size: 0.92592593rem;
+  line-height: 2.77777778rem;
+  font-weight: 900;
+  text-align: center;
+  color: #d04035;
+}
+.user-nav-menu {
+  width: 3.00925926rem;
+  height: 3.61111111rem;
+  background: url(../img/play-pic/share.png) no-repeat 0.64814815rem 0.83333333rem;
+  background-size: 1.38888889rem 1.38888889rem;
+  margin-top: 0.41666667rem;
+  float: right;
+}

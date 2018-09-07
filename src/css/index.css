@@ -1,0 +1,103 @@
+#indexContent {
+  transition: .5s;
+}
+.index-head {
+  width: 25rem;
+  height: 8.33333333rem;
+  padding-top: 0.02314815rem;
+  box-sizing: border-box;
+  position: relative;
+}
+.LB-BOX {
+  margin-top: -2.1rem;
+  height: 7.08333333rem;
+  background: #e0433a;
+  margin-bottom: 1rem;
+}
+.LB-BOX .lb-pic {
+  width: 25rem;
+  height: 8.98148148rem;
+  position: relative;
+  overflow: hidden;
+}
+.LB-BOX .lb-pic .lb-pic-box {
+  margin-top: 1rem;
+  width: 200rem;
+  height: 8.98148148rem;
+  font-size: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.LB-BOX .lb-pic .lb-pic-box img {
+  width: 24.16666667rem;
+  height: 8.98148148rem;
+  border-radius: 0.27777778rem;
+  margin: 0 0.41666667rem;
+}
+.LB-BOX .lb-pic .pic-btnbox {
+  width: 5.37037037rem;
+  height: 0.64814815rem;
+  position: absolute;
+  bottom: 0.83333333rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  font-size: 0;
+}
+.LB-BOX .lb-pic .pic-btnbox .pic-btns {
+  width: 0.64814815rem;
+  height: 0.64814815rem;
+  border-radius: 50%;
+  background: rgba(171, 181, 183, 0.8);
+  display: inline-block;
+  margin: 0 0.34722222rem;
+}
+.LB-BOX .lb-pic .pic-btnbox .active {
+  background: rgba(199, 56, 50, 0.9);
+}
+.content-nav {
+  height: 5.30092593rem;
+  font-size: 0;
+  margin-top: 3.33333333rem;
+  margin-bottom: 0.6712963rem;
+  display: flex;
+  justify-content: space-around;
+}
+.content-nav .contentNav {
+  width: 3.37962963rem;
+  height: 5.30092593rem;
+  display: inline-block;
+  position: relative;
+}
+.content-nav .contentNav .CN-font {
+  width: 3.37962963rem;
+  height: 1.9212963rem;
+  font-size: 0.78703704rem;
+  text-align: center;
+  line-height: 1.9212963rem;
+  font-family: '微软雅黑';
+  position: absolute;
+  bottom: 0;
+}
+.content-nav .contentNav:nth-child(1) {
+  background: url(../img/content-pic/1-1.png) no-repeat;
+  background-size: 3.37962963rem 3.37962963rem;
+}
+.content-nav .contentNav:nth-child(2) {
+  background: url(../img/content-pic/2-1.png) no-repeat;
+  background-size: 3.37962963rem 3.37962963rem;
+}
+.content-nav .contentNav:nth-child(3) {
+  background: url(../img/content-pic/3-1.png) no-repeat;
+  background-size: 3.37962963rem 3.37962963rem;
+}
+.content-nav .contentNav:nth-child(4) {
+  background: url(../img/content-pic/4-1.png) no-repeat;
+  background-size: 3.37962963rem 3.37962963rem;
+}
+.line {
+  width: 25rem;
+  height: 0.0462963rem;
+  background: #ebeff2;
+}

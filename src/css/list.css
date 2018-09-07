@@ -1,0 +1,119 @@
+.default-list {
+  width: 25rem;
+  height: 17.31481481rem;
+  margin-top: -2rem;
+}
+.default-list .defaultLists {
+  width: 25rem;
+  height: 3.47222222rem;
+  font-size: 0.97222222rem;
+  line-height: 3.47222222rem;
+  text-indent: 3.47222222rem;
+}
+.default-list .defaultLists .defaultLists-num {
+  font-size: 0.83333333rem;
+  line-height: 3.47222222rem;
+  text-indent: 0.41666667rem;
+  color: #a0a4a7;
+}
+.default-list .defaultLists:nth-child(1) {
+  background: url(../img/list-pic/1-1.png) no-repeat 1.01851852rem 1.01851852rem;
+  background-size: 1.43518519rem 1.38888889rem;
+}
+.default-list .defaultLists:nth-child(2) {
+  background: url(../img/list-pic/1-2.png) no-repeat 1.01851852rem 1.01851852rem;
+  background-size: 1.45833333rem 1.43518519rem;
+}
+.default-list .defaultLists:nth-child(3) {
+  background: url(../img/list-pic/1-3.png) no-repeat 0.97222222rem 1.04166667rem;
+  background-size: 1.50462963rem 1.31944444rem;
+}
+.default-list .defaultLists:nth-child(4) {
+  background: url(../img/list-pic/1-4.png) no-repeat 1.01851852rem 0.99537037rem;
+  background-size: 1.41203704rem 1.43518519rem;
+}
+.default-list .defaultLists:nth-child(5) {
+  height: 3.42592593rem;
+  background: url(../img/list-pic/1-5.png) no-repeat 1.01851852rem 1.04166667rem;
+  background-size: 1.45833333rem 1.34259259rem;
+}
+.create {
+  width: 25rem;
+  height: 2.12962963rem;
+  background: #e5e9e8;
+  font-size: 0.74074074rem;
+  line-height: 2.12962963rem;
+  text-indent: 0.81018519rem;
+  word-spacing: 0.69444444rem;
+}
+.create .create-img {
+  width: 1.2037037rem;
+  height: 1.15740741rem;
+  float: right;
+  margin-right: 1.06481481rem;
+  margin-top: 0.50925926rem;
+}
+.create-list {
+  width: 25rem;
+  padding: 0 1.06481481rem 0 0.41666667rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-size: 0;
+}
+.create-list .create-item {
+  width: 23.51851852rem;
+  height: 3.75rem;
+  margin: 0.20833333rem 0 0.20833333rem;
+  position: relative;
+}
+.create-list .create-item .create-item-pic {
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 0.16203704rem;
+  margin-right: 0.76388889rem;
+}
+.create-list .create-item .create-item-textbox {
+  width: 16.66666667rem;
+  height: 3.75rem;
+  padding-top: 0.39351852rem;
+  padding-bottom: 0.39351852rem;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+}
+.create-list .create-item .create-item-textbox .create-item-text1 {
+  max-width: 16.66666667rem;
+  height: 1.64351852rem;
+  font-size: 0.97222222rem;
+  line-height: 1.64351852rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+}
+.create-list .create-item .create-item-textbox .create-item-text2 {
+  max-width: 16.66666667rem;
+  height: 1.31944444rem;
+  font-size: 0.74074074rem;
+  line-height: 1.31944444rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+}
+.create-list .create-item .create-item-textbox .create-item-text2 .create-item-icon {
+  width: 0.83333333rem;
+  height: 0.83333333rem;
+  margin: 0.23148148rem 0 0 0.09259259rem;
+  vertical-align: top;
+}
+.create-list .create-item .create-item-pic-R-btn {
+  width: 3.42592593rem;
+  height: 3.75rem;
+  position: absolute;
+  right: -1.06481481rem;
+}
+.create-list .create-item .create-item-pic-R-btn .create-item-pic-R {
+  margin-left: 1.27314815rem;
+  margin-top: 1.34259259rem;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script>
+        var num = 1/window.devicePixelRatio;
+        document.write('<meta name="viewport" content="width=device-width,initial-scale='+ num +',user-scalable=no,minimum-scale='+ num +',maximum-scale='+  num +'">');
+        var width = document.documentElement.clientWidth;
+        document.documentElement.style.fontSize = width/25+'px';
+  	</script>
+    <title>Document</title>
+
+        <!-- 首页内容相关样式 -->
+        <link rel="stylesheet" href="../css/index.css">
+
+        <!-- 导航条相关样式 -->
+        <link rel="stylesheet" href="../css/nav.css">
+    
+        <!-- 列表页相关样式 -->
+        <link rel="stylesheet" href="../css/list.css">
+    
+        <!-- 首页分支-朋友相关样式 -->
+        <link rel="stylesheet" href="../css/friend.css">
+
+        <!-- 首页分支-电台相关样式 -->
+        <link rel="stylesheet" href="../css/radio-station.css">
+    
+        <!-- 公共部分 -->
+        <link rel="stylesheet" href="../css/base.css">
+    
+        <!-- 工具类 -->
+        <link rel="stylesheet" href="../css/tools.css">
+    
+        <!-- 样式重置 -->
+        <link rel="stylesheet" href="../css/reset.css">
+    
+</head>
+<body>
+    <header class="index-head">
+        <div class="headbox details-back-red">
+            <nav class="base-nav  details-back-red">
+                <div class="base-menubox">
+                    <div class="baseL156">
+                            <div class="baseNum">11</div>
+                            <div class="baseX"></div>
+                            <div class="baseX"></div>
+                            <div class="baseX"></div>
+                    </div>
+                    <div class="base-menu"></div>
+                </div>
+                <div class="base native"></div>
+                <div class="base home"></div>
+                <div class="base expand"></div>
+                <div class="base search"></div>
+            </nav>
+            <nav class="nav2">
+                <div class="TuiJian active">推荐
+                    <div class="select"></div>
+                </div>
+                <div class="friend">朋友</div>
+                <div class="RS">电台</div>
+            </nav>
+        </div>
+    </header>
+    <section> 
+        <div class="LB-BOX">
+            <div class="lb-pic">
+                <div class="lb-pic-box">
+                    <img src="../img/ntan.jpg">
+                    <img src="../img/ntan.jpg">
+                    <img src="../img/ntan.jpg">
+                    <img src="../img/ntan.jpg">
+                    <img src="../img/ntan.jpg">
+                    <img src="../img/ntan.jpg">
+                    <img src="../img/ntan.jpg">
+                    <img src="../img/ntan.jpg">
+                </div>
+                <ul class="pic-btnbox">
+                    <li class="pic-btns active"></li>
+                    <li class="pic-btns"></li>
+                    <li class="pic-btns"></li>
+                    <li class="pic-btns"></li>
+                    <li class="pic-btns"></li>
+                    <li class="pic-btns"></li>
+                    <li class="pic-btns"></li>
+                    <li class="pic-btns"></li>
+                </ul>
+            </div>
+        </div>
+        <nav class="radio-station-nav">
+            <div class="radio-station-nav-item">私人FM</div>
+            <p class="radio-station-nav-line"></p>
+            <div class="radio-station-nav-item">每日推荐</div>
+        </nav>
+        <div class="line"></div>
+
+    </section>
+<!-- 底部播放器 -->
+    <footer>
+        <div class="player">
+            <div class="playerL">
+                <img src="../img/footer-pic/HP.png">
+                <div class="font-box">
+                    <span class="music-name">桜ひらり</span>
+                    <span class="singer-lyrics">高野健一</span>
+                </div>
+            </div>
+            <div class="playerR">
+                <!-- pausebtn -->
+                <div class="playbtn "></div>
+                <div class="footer-list"></div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

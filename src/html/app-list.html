@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script>
+        var num = 1/window.devicePixelRatio;
+        document.write('<meta name="viewport" content="width=device-width,initial-scale='+ num +',user-scalable=no,minimum-scale='+ num +',maximum-scale='+  num +'">');
+        var width = document.documentElement.clientWidth;
+        document.documentElement.style.fontSize = width/25+'px';
+    </script>
+    <title>Document</title>
+    
+    <!-- 首页内容相关样式 -->
+    <link rel="stylesheet" href="../css/index.css">
+
+    <!-- 导航条相关样式 -->
+    <link rel="stylesheet" href="../css/nav.css">
+
+    <!-- 列表页相关样式 -->
+    <link rel="stylesheet" href="../css/list.css">
+
+    <!-- 公共部分 -->
+    <link rel="stylesheet" href="../css/base.css">
+
+    <!-- 工具类 -->
+    <link rel="stylesheet" href="../css/tools.css">
+
+    <!-- 样式重置 -->
+    <link rel="stylesheet" href="../css/reset.css">
+
+</head>
+<body>
+<!-- 头部播放器 -->
+    <header class="index-head list-headbox">
+        <div class="headbox list-headbox details-back-red">
+            <nav class="base-nav details-back-red">
+                <div class="base-menubox">
+                    <div class="baseL156">
+                            <div class="baseNum">11</div>
+                            <div class="baseX"></div>
+                            <div class="baseX"></div>
+                            <div class="baseX"></div>
+                    </div>
+                    <div class="base-menu"></div>
+                </div>
+                <div class="base native"></div>
+                <div class="base home"></div>
+                <div class="base expand"></div>
+                <div class="base search"></div>
+            </nav>
+        </div>
+    </header>
+
+<!-- 内容部分 -->
+    <section>
+        <ul class="default-list">
+            <li class="defaultLists">本地音乐
+                <span class="defaultLists-num">(486)</span>
+            </li>
+            <li class="defaultLists">最近播放
+                <span class="defaultLists-num">(100)</span>
+            </li>
+            <li class="defaultLists">下载管理
+                <span class="defaultLists-num">(479)</span>
+            </li>
+            <li class="defaultLists">我的电台
+                <span class="defaultLists-num">(0)</span>
+            </li>
+            <li class="defaultLists">我的收藏
+                <span class="defaultLists-num">(1)</span>
+            </li>
+        </ul>
+
+        <div class="create">﹀  创建的歌单(2)
+            <img class="create-img" src="../img/menu-pic/2-2.png">
+        </div>
+        <ul class="create-list">
+            <li class="create-item">
+                <img class="create-item-pic" src="../img/content-pic/img.jpg">
+                <div class="create-item-textbox">
+                    <span class="create-item-text1">我喜欢的音乐</span>
+                    <span class="create-item-text2">
+                        <img class="create-item-icon" src="../img/list-pic/1-9.png">
+                        386首，已下载384首</span>
+                </div>
+            </li>
+            <li class="create-item">
+                <img class="create-item-pic" src="../img/content-pic/img.jpg">
+                <div class="create-item-textbox">
+                    <span class="create-item-text1">国漫op/ed</span>
+                    <span class="create-item-text2">
+                        <img class="create-item-icon" src="../img/list-pic/1-8.png">
+                        92首</span>
+                </div>
+                <a href="#" class="create-item-pic-R-btn">
+                    <img class="create-item-pic-R" src="../img/list-pic/1-7.png">
+                </a>
+            </li>
+        </ul>
+
+        <div class="create">﹀  收藏的歌单(2)
+            <img class="create-img" src="../img/menu-pic/2-2.png">
+        </div>
+        <ul class="create-list">
+            <li class="create-item">
+                <img class="create-item-pic" src="../img/content-pic/img.jpg">
+                <div class="create-item-textbox">
+                    <span class="create-item-text1">我喜欢的音乐</span>
+                    <span class="create-item-text2">
+                        <img class="create-item-icon" src="../img/list-pic/1-9.png">
+                        386首，已下载384首</span>
+                </div>
+            </li>
+            <li class="create-item">
+                <img class="create-item-pic" src="../img/content-pic/img.jpg">
+                <div class="create-item-textbox">
+                    <span class="create-item-text1">我喜欢的音乐</span>
+                    <span class="create-item-text2">
+                        <img class="create-item-icon" src="../img/list-pic/1-8.png">
+                        386首，已下载384首</span>
+                </div>
+                <a href="#" class="create-item-pic-R-btn">
+                    <img class="create-item-pic-R" src="../img/list-pic/1-7.png">
+                </a>
+            </li>
+        </ul>
+    </section>
+
+<!-- 底部播放器 -->
+    <footer>
+        <div class="player">
+            <div class="playerL">
+                <img src="../img/footer-pic/HP.png">
+                <div class="font-box">
+                    <span class="music-name">桜ひらり</span>
+                    <span class="singer-lyrics">高野健一</span>
+                </div>
+            </div>
+            <div class="playerR">
+                <!-- pausebtn -->
+                <div class="playbtn "></div>
+                <div class="footer-list"></div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

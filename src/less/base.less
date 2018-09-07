@@ -1,0 +1,82 @@
+@rem:43.2rem;
+
+.player{
+    width: 1080/@rem;
+    height: 147/@rem;
+    background: #fff;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    padding: 18/@rem;
+    z-index: 2;
+
+    .playerL{
+        width: 805/@rem;
+        height: 111/@rem; 
+        float: left;
+        img{
+            width: 111/@rem;
+            height: 111/@rem;
+            border-radius: 4/@rem;
+            margin-right: 18/@rem;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .font-box{
+            height: 111/@rem;
+            display: inline-block;
+
+            .music-name{
+                font-size:36/@rem;
+                color: #000;
+                line-height: 58/@rem;
+                display: block;
+            }
+            .singer-lyrics{
+                font-size:30/@rem;
+                color: #8a8a8a;
+                line-height: 53/@rem;
+                display: block;
+            }
+        }
+    }
+
+    .playerR{
+        width: 239/@rem;
+        height: 111/@rem;
+        padding:18/@rem 0 18/@rem 18/@rem;
+        box-sizing: border-box;
+        float: right;
+        .playbtn{
+            width: 79/@rem;
+            height: 79/@rem;
+            box-sizing: border-box;
+            background:url(../img/footer-pic/playbtn.png) no-repeat 27/@rem center;
+            //如果图片换成pausebtn ，background-position-x换成center ， 否则就是27/@rem
+            background-size:25/@rem 34/@rem; 
+            border: 4/@rem solid #ccc;
+            border-radius: 50%;
+            float: left;
+        }
+        .footer-list{
+            width: 96/@rem;
+            height: 79/@rem;
+            background: url(../img/footer-pic/list.png) no-repeat 18/@rem 12/@rem;
+            background-size:62/@rem 52/@rem;
+            float: right;
+            
+        }
+    }
+
+}
+.ItemImg1{
+    width: 342/@rem;
+    height: 342/@rem;
+    border-radius: 8/@rem;
+    background: linear-gradient(rgb(170, 170, 170) -120%,rgba(255, 166, 0, 0) 80%,rgb(170, 170, 170) 120%);
+    position: absolute;
+    z-index: 2;
+}
+.search-list{
+    padding-top:228/@rem;
+}

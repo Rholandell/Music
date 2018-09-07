@@ -1,0 +1,116 @@
+.Landingbox {
+  width: 25rem;
+  height: 44.44444444rem;
+  background: url('../img/menu-pic/back.jpg') center center no-repeat;
+  background-size: 72.22222222rem 44.44444444rem;
+  position: relative;
+  overflow: hidden;
+  font-family: '微软雅黑';
+  color: #fff;
+}
+.Landingbox1 {
+  width: 50rem;
+  position: absolute;
+  transition: 0.5s;
+}
+.Landing {
+  width: 25rem;
+  display: inline-block;
+}
+.registered {
+  width: 25rem;
+  display: inline-block;
+}
+.Landing-title {
+  width: 13.42592593rem;
+  height: 11.57407407rem;
+  margin-top: 6.94444444rem;
+  display: block;
+  margin: 3.47222222rem auto;
+}
+.Landing-codebox {
+  width: 13.88888889rem;
+  height: 1.85185185rem;
+  margin: 1.85185185rem auto;
+  position: relative;
+}
+.Landing-text {
+  width: 13.88888889rem;
+  height: 1.85185185rem;
+  border-radius: 0.92592593rem;
+  border: 0.06944444rem solid #ff0000;
+  font-size: 1.15740741rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.4);
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+  font-family: '微软雅黑';
+  color: #fff;
+}
+.Landing-text:nth-child(2) {
+  margin-top: 1.85185185rem;
+  margin-bottom: 1.85185185rem;
+}
+.Landing-btnBox {
+  width: 18.51851852rem;
+  height: 1.85185185rem;
+  margin: 1.85185185rem auto;
+  position: relative;
+}
+.Landing-btnBox .Landing-btn {
+  width: 6.94444444rem;
+  height: 1.85185185rem;
+  font-size: 1.15740741rem;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 0.92592593rem;
+  border: 0.06944444rem solid #ff0000;
+  position: absolute;
+  font-family: '微软雅黑';
+  color: #fff;
+}
+.Landing-btnBox .Landing-btn:nth-child(1) {
+  left: 0;
+}
+.Landing-btnBox .Landing-btn:nth-child(2) {
+  right: 0;
+}
+.Landing-btnBox1 {
+  width: 6.94444444rem;
+  height: 1.85185185rem;
+  font-size: 1.15740741rem;
+  margin: 0 auto;
+}
+.Landing-btnBox1 .Landing-btn {
+  width: 6.94444444rem;
+  height: 1.85185185rem;
+  font-size: 1.15740741rem;
+  border-radius: 0.92592593rem;
+  border: 0.06944444rem solid #ff0000;
+  background: rgba(255, 255, 255, 0.4);
+  font-family: '微软雅黑';
+  color: #fff;
+}
+.eye1 {
+  width: 1.38888889rem;
+  height: 0.81018519rem;
+  display: inline-block;
+  background: url('../img/eye1.png');
+  background-size: 1.38888889rem 0.81018519rem;
+  position: absolute;
+  top: 0.5787037rem;
+  right: 0.46296296rem;
+}
+.eye2 {
+  width: 1.38888889rem;
+  height: 0.81018519rem;
+  display: inline-block;
+  background: url('../img/eye2.png');
+  background-size: 1.38888889rem 0.81018519rem;
+  position: absolute;
+  top: 0.5787037rem;
+  right: 0.46296296rem;
+}
+button {
+  padding: 0;
+}

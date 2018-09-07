@@ -1,0 +1,213 @@
+.playmusic-backgrounds {
+  width: 25rem;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.4);
+}
+.playmusic-background {
+  width: 25rem;
+  height: 44.44444444rem;
+  position: absolute;
+  top: 0;
+  -webkit-filter: blur(2.31481481rem);
+}
+.playmusic-content {
+  width: 25rem;
+  height: 30.83333333rem;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  z-index: 3;
+}
+.playmusic-content .singing-arm-rgba {
+  width: 1.52777778rem;
+  height: 1.52777778rem;
+  border-radius: 50%;
+  border: 0.27777778rem solid rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: -1.01851852rem;
+  left: 11.96759259rem;
+}
+.playmusic-content .singing-arm {
+  width: 5.6712963rem;
+  height: 8.21759259rem;
+  position: absolute;
+  top: 0;
+  left: 11.94444444rem;
+  z-index: 3;
+}
+.playmusic-content .record-box {
+  width: 18.14814815rem;
+  height: 18.14814815rem;
+  background: url(../img/play-pic/record.png) no-repeat;
+  background-size: 18.14814815rem 18.14814815rem;
+  margin-bottom: 4.72222222rem;
+  position: absolute;
+  top: 4.67592593rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.playmusic-content .record-box .record-pic {
+  width: 12.31481481rem;
+  height: 12.31481481rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.playmusic-content .playmusic-top-btn {
+  width: 25rem;
+  height: 3.28703704rem;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.playmusic-content .playmusic-top-btn .playmusic-top-btns {
+  width: 3.47222222rem;
+  height: 3.28703704rem;
+}
+.playmusic-content .playmusic-top-btn .playmusic-top-btns span {
+  font-size: 0.46296296rem;
+  line-height: 0.69444444rem;
+  color: #cec5b3;
+  position: absolute;
+  top: 0.69444444rem;
+  left: 2.08333333rem;
+}
+.playmusic-content .playmusic-top-btn .playmusic-top-btns:nth-child(1) {
+  background: url(../img/play-pic/1-1.png) no-repeat center center;
+  background-size: 1.62037037rem 1.43518519rem;
+}
+.playmusic-content .playmusic-top-btn .playmusic-top-btns:nth-child(2) {
+  background: url(../img/play-pic/1-2.png) no-repeat center center;
+  background-size: 1.80555556rem 1.43518519rem;
+}
+.playmusic-content .playmusic-top-btn .playmusic-top-btns:nth-child(3) {
+  background: url(../img/play-pic/1-3.png) no-repeat center center;
+  background-size: 1.43518519rem 1.43518519rem;
+  position: relative;
+}
+.playmusic-content .playmusic-top-btn .playmusic-top-btns:nth-child(4) {
+  background: url(../img/play-pic/1-4.png) no-repeat center center;
+  background-size: 0.32407407rem 1.43518519rem;
+}
+.playmusic-bottom {
+  width: 25rem;
+  height: 8.33333333rem;
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
+}
+.playmusic-bottom .playmusic-line {
+  height: 2.70833333rem;
+  box-sizing: border-box;
+  padding: 0.85648148rem 1.15740741rem;
+  position: relative;
+}
+.playmusic-bottom .playmusic-line .playmusic-timeL {
+  width: 2.08333333rem;
+  height: 0.99537037rem;
+  font-size: 0.69444444rem;
+  line-height: 0.99537037rem;
+  color: #fff;
+  text-align: center;
+  float: left;
+}
+.playmusic-bottom .playmusic-line .playmusic-line1 {
+  width: 18.28703704rem;
+  height: 0.13888889rem;
+  background: #fff;
+  border-radius: 0.06944444rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.playmusic-bottom .playmusic-line .playmusic-line1 .playmusic-line2 {
+  width: 0%;
+  height: 0.13888889rem;
+  background: #df3236;
+  border-radius: 0.06944444rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.playmusic-bottom .playmusic-line .playmusic-line1 .playmusic-line3-box {
+  width: 17.36111111rem;
+  position: relative;
+}
+.playmusic-bottom .playmusic-line .playmusic-line1 .playmusic-line3-box .playmusic-line3 {
+  width: 0.27777778rem;
+  height: 0.27777778rem;
+  border-radius: 50%;
+  background: #df3236;
+  border: 0.37037037rem solid #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+.playmusic-bottom .playmusic-line .playmusic-timeR {
+  width: 2.08333333rem;
+  height: 0.99537037rem;
+  font-size: 0.69444444rem;
+  line-height: 0.99537037rem;
+  text-align: center;
+  float: right;
+  color: #fff;
+}
+.playmusic-bottom .playmusic-bottom-btn {
+  height: 5.625rem;
+  padding: 0.60185185rem 0.39351852rem 1.78240741rem 0.39351852rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.playmusic-bottom .playmusic-bottom-btn .playmusic-bottom-btns {
+  width: 3.24074074rem;
+  height: 3.24074074rem;
+}
+.playmusic-bottom .playmusic-bottom-btn .playmusic-bottom-btns:nth-child(1) {
+  background: url(../img/play-pic/1.png) no-repeat center center;
+  background-size: 1.52777778rem 1.31944444rem;
+}
+.playmusic-bottom .playmusic-bottom-btn .playmusic-bottom-btns:nth-child(2) {
+  background: url(../img/play-pic/2.png) no-repeat center center;
+  background-size: 1.52777778rem 1.57407407rem;
+}
+.playmusic-bottom .playmusic-bottom-btn .playmusic-bottom-btns:nth-child(3) {
+  background: url(../img/play-pic/4.png) no-repeat center center;
+  background-size: 3.24074074rem 3.24074074rem;
+}
+.playmusic-bottom .playmusic-bottom-btn .playmusic-bottom-btns:nth-child(4) {
+  background: url(../img/play-pic/5.png) no-repeat center center;
+  background-size: 1.52777778rem 1.57407407rem;
+}
+.playmusic-bottom .playmusic-bottom-btn .playmusic-bottom-btns:nth-child(5) {
+  background: url(../img/play-pic/6.png) no-repeat center center;
+  background-size: 1.52777778rem 1.31944444rem;
+}
+.playmusic-bottom .playmusic-bottom-btn .playmusic-bottom-btns1 {
+  width: 3.24074074rem;
+  height: 3.24074074rem;
+  background: url(../img/play-pic/3.png) no-repeat center center;
+  background-size: 3.24074074rem 3.24074074rem;
+}
+.playmusic-bottom .playmusic-bottom-btn .playmusic-bottom-btns2 {
+  width: 3.24074074rem;
+  height: 3.24074074rem;
+  background: url(../img/play-pic/7.png) no-repeat center center;
+  background-size: 1.52777778rem 1.31944444rem;
+}

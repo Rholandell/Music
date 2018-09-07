@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script>
+        var num = 1/window.devicePixelRatio;
+        document.write('<meta name="viewport" content="width=device-width,initial-scale='+ num +',user-scalable=no,minimum-scale='+ num +',maximum-scale='+  num +'">');
+        var width = document.documentElement.clientWidth;
+        document.documentElement.style.fontSize = width/25+'px';
+    </script>
+    <title>Document</title>
+
+    <!-- 首页内容相关样式 -->
+    <link rel="stylesheet" href="../css/index.css">
+
+    <!-- 导航条相关样式 -->
+    <link rel="stylesheet" href="../css/nav.css">
+
+    <!-- 列表页相关样式 -->
+    <link rel="stylesheet" href="../css/list.css">
+
+    <!-- 详情页相关样式 -->
+    <link rel="stylesheet" href="../css/details.css">
+
+    <!-- 公共部分 -->
+    <link rel="stylesheet" href="../css/base.css">
+
+    <!-- 工具类 -->
+    <link rel="stylesheet" href="../css/tools.css">
+
+    <!-- 样式重置 -->
+    <link rel="stylesheet" href="../css/reset.css">
+
+</head>
+<body>
+    <!-- 详情页头部 -->
+    <header class="index-head list-headbox">
+        <!-- 拖拽页面的高度小于228，className加上details-backRgba并且让下面img启用 -->
+        <div class="headbox list-headbox details-backRgba">
+            <nav class="base-nav">
+                <div class="base-backbox"></div>
+                <div class="base-back-text">
+                    <span class="base-back-text1">歌单</span>
+                    <span class="base-back-text2">根据你喜欢的单曲《剑啸江湖》推荐</span>
+                </div>
+                <div class="nav-menu"></div>
+                <div class="base search floatR"></div>
+            </nav>
+            <!-- <img src="../img/menu-pic/back.jpg" class="details-back pb"> -->
+        </div>
+    </header>
+    <!-- 详情页内容 -->
+    <section class="details-section">
+        <div class="details-top-content">
+            <img src="../img/menu-pic/back.jpg" class="details-back ptl">
+            <div class="details-top-content-box">
+                <div class="details-top-content-box-top">
+                    <div class="details-poster"></div>
+                    <div class="details-title-name">
+                        <span class="details-title">双笙、玄觞、银临、封茗囧菌，余音袅袅！</span>
+                        <span class="details-namebox">
+                            <img src="../img/content-pic/img.jpg" class="details-HP">
+                            <span class="details-name"> 三笙鵷鷟 〉</span>
+                        </span>
+                    </div>
+                </div>
+                <ul class="details-top-content-box-bottom">
+                    <li class="details-btn message">656</li>
+                    <li class="details-btn share">939</li>
+                    <li class="details-btn download">下载</li>
+                    <li class="details-btn choose">多选</li>
+                </ul>
+            </div>
+            
+            
+        </div>
+        <div class="playAndCollection">
+            <div class="playAll">
+                    播放全部<span>(共475首)</span>
+            </div>
+            <div class="collection">+ 收藏(15.7万)</div>
+        </div>
+        <div class="details-bottom-content">
+            
+            <ul>
+                <li class="details-item-music">
+                    <div class="details-item-num">1</div>
+                    <div class="details-item-musicNameAndNickName">
+                        <span class="details-item-musicName">时节锦绣</span>
+                        <span class="details-item-NickName">双笙-时节锦绣</span>
+                    </div>
+                    <div class="details-item-options"></div>
+                </li>
+                <li class="details-item-music">
+                    <div class="details-item-num">2</div>
+                    <div class="details-item-musicNameAndNickName">
+                        <span class="details-item-musicName">时节锦绣</span>
+                        <span class="details-item-NickName">
+                            <img src="../img/details-pic/6.png" class="SQ-icon">
+                            双笙-时节锦绣</span>
+                    </div>
+                    <div class="details-item-options"></div>
+                </li>
+                <li class="details-item-music">
+                    <div class="details-item-num">3</div>
+                    <div class="details-item-musicNameAndNickName">
+                        <span class="details-item-musicName">时节锦绣</span>
+                        <span class="details-item-NickName">双笙-时节锦绣</span>
+                    </div>
+                    <div class="details-item-options"></div>
+                </li>
+                <li class="details-item-music">
+                    <div class="details-item-num">4</div>
+                    <div class="details-item-musicNameAndNickName">
+                        <span class="details-item-musicName">时节锦绣</span>
+                        <span class="details-item-NickName">双笙-时节锦绣</span>
+                    </div>
+                    <div class="details-item-options"></div>
+                </li>
+                <li class="details-item-music">
+                    <div class="details-item-num">5</div>
+                    <div class="details-item-musicNameAndNickName">
+                        <span class="details-item-musicName">时节锦绣</span>
+                        <span class="details-item-NickName">双笙-时节锦绣</span>
+                    </div>
+                    <div class="details-item-options"></div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- 底部播放器 -->
+    <footer>
+        <div class="player">
+            <div class="playerL">
+                <img src="../img/footer-pic/HP.png">
+                <div class="font-box">
+                    <span class="music-name">桜ひらり</span>
+                    <span class="singer-lyrics">高野健一</span>
+                </div>
+            </div>
+            <div class="playerR">
+                <!-- pausebtn -->
+                <div class="playbtn "></div>
+                <div class="footer-list"></div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

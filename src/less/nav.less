@@ -1,0 +1,236 @@
+@rem:43.2rem;
+
+.headbox{
+    width: 1080/@rem;
+    height: 360/@rem;
+    overflow: hidden;
+    position: fixed;    
+    z-index: 99999;
+    
+    .base-nav{
+        width: 1080/@rem;
+        height: 156/@rem;
+        margin-top: 72/@rem;
+        font-size: 0;
+        position: fixed;
+        vertical-align: top;
+        z-index: 99999;
+// 首页样式
+        .base-menubox{
+            width: 187/@rem;
+            height: 156/@rem;
+            display: inline-block;
+            margin-right:107/@rem; 
+            position: relative;
+            
+            .base-menu{
+                width: 80/@rem;
+                height: 156/@rem;
+                border-radius: 50%;
+                position: absolute;
+                right: 0;
+            }
+            .baseL156{
+                width: 156/@rem;
+                height: 156/@rem;
+                box-sizing: border-box;
+                padding-left: 45/@rem;
+                position: absolute;
+                left: 0;
+                display: flex;
+                flex-direction:column;
+                justify-content: center;
+
+                .baseNum{
+                    min-width: 45/@rem;
+                    height: 45/@rem;
+                    padding:0 12/@rem;
+                    background: #fff;
+                    border-radius: 40/@rem;
+                    box-sizing: border-box;
+                    position: absolute;
+                    left: 85/@rem;
+                    top:24/@rem;
+                    z-index: 1;
+                    font-size: 25/@rem;
+                    line-height: 45/@rem;
+                    text-align: center;
+                    font-weight: 900;
+                    color:#e04155;
+                }
+                .baseX{
+                    width: 66/@rem;
+                    height: 5/@rem;
+                    border-radius:5/@rem; 
+                    background: #fff;
+                    margin-top: 15/@rem;
+                    z-index: 1;
+                }
+                .baseX:nth-child(2){
+                    margin-top: 0;
+                }
+            }
+
+        }
+// 首页导航条按钮
+        .base{
+            width: 156/@rem;
+            height: 156/@rem;
+            display: inline-block;
+            border-radius: 50%;
+        }
+        
+        .native{
+            margin-right:12/@rem;
+            background: url(../img/nav-pic/1-1.png) no-repeat 43/@rem 43/@rem;
+            background-size: 71/@rem 71/@rem;
+        }
+        .home{
+            margin-right:12/@rem; 
+            background: url(../img/nav-pic/2-2.png) no-repeat 46/@rem 41/@rem;
+            background-size: 64/@rem 71/@rem;
+        }
+        .expand{
+            margin-right:138/@rem; 
+            background: url(../img/nav-pic/3-1.png) no-repeat 38/@rem 43/@rem;
+            background-size: 80/@rem 71/@rem;
+        }
+        .search{
+            background: url(../img/nav-pic/4.png) no-repeat 53/@rem 47/@rem;
+            background-size: 61/@rem 61/@rem;
+        }
+
+
+// 后退   
+        .U-back{
+            width: 156/@rem;
+            height: 156/@rem;
+            padding: 0;
+            margin: 0;
+            background: url(../img/details-pic/back.png) no-repeat 1.22685185rem 1.15740741rem;
+            background-size: 1.38888889rem 1.22685185rem;
+            float: left;
+        }
+        .base-backbox{
+            width: 170/@rem;
+            height: 156/@rem;
+            padding-top: 30/@rem;
+            box-sizing: border-box;
+            background: url(../img/details-pic/back.png) no-repeat 53/@rem 50/@rem;
+            background-size: 60/@rem 53/@rem;
+            float: left;
+        }
+        .base-back-text{
+            width: 500/@rem;
+            height: 156/@rem;
+            padding-top: 30/@rem;
+            float: left;
+            box-sizing: border-box;
+            .base-back-text1{
+                width: 500/@rem;
+                font-size: 48/@rem;
+                line-height: 62/@rem;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                color: #fff;
+                display: block;
+            }
+            .base-back-text2{
+                width: 500/@rem;
+                font-size: 26/@rem;
+                line-height: 42/@rem;
+                color: rgba(183, 194, 196, 0.5);
+                display: block;
+            }
+        }
+        .nav-menu{
+            width: 130/@rem;
+            height: 120/@rem;
+            background: url(../img/list-pic/1-7.png) no-repeat 52/@rem 32/@rem;
+            background-size: 10/@rem 56/@rem;
+            margin-top:18/@rem; 
+            float: right;
+        }
+        
+// 首页第二层导航条
+    }
+    .nav2{
+        height: 114/@rem;
+        background: #e0433a;
+        font-size: 0;
+        font-family: '微软雅黑';
+        line-height: 114/@rem;
+        text-align: center;
+        color: #fff;
+        position: fixed;
+        top: 228/@rem;
+        vertical-align: top;
+
+        .active{
+            font-weight: 900;
+        }
+        .select{
+            width: 90/@rem;
+            height: 6/@rem;
+            background: #fff;
+            border-radius: 6/@rem;
+            position: absolute;
+            bottom: 15/@rem;
+            left: 12.5%;
+        }
+        .TuiJian{
+            width: 360/@rem;
+            font-size: 38/@rem;
+            display: inline-block;
+            color: #fff;
+            position: relative;
+        }
+        .friend{
+            width: 360/@rem;
+            font-size: 38/@rem;
+            display: inline-block;
+            color: #fff;
+            position: relative;
+        }
+        .RS{
+            font-size: 38/@rem;
+            display: inline-block;
+            width: 360/@rem;
+            color: #fff;
+            position: relative;
+        }
+    }
+    
+}
+
+// 搜索页导航条
+.search-input{
+    width: 70%;
+    height: 110/@rem;
+    border:0;
+    margin-top:20/@rem;
+    background-color: #e0433a;
+    border-bottom: 2/@rem solid rgb(209, 209, 209);
+    font-size: 60/@rem;
+    color:rgb(230, 230, 230);
+    
+    
+}
+.search-input::-webkit-input-placeholder { 
+    color:rgb(230, 230, 230);
+} 
+
+// 导航条背景颜色
+.details-back-red{
+    background-color: #e0433a;
+}
+.details-backRgba{
+    background-color:rgba(0, 0, 0, .2);
+}
+//详情页背景图片模糊
+.details-back{
+    width: 1080/@rem;
+    height: 936/@rem;
+    -webkit-filter: blur(80/@rem);
+}

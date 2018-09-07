@@ -1,0 +1,192 @@
+.UP {
+  height: 9.07407407rem;
+  border-bottom: 0.02314815rem solid #e7e8ea;
+  font-size: 0.92592593rem;
+  line-height: 2.77777778rem;
+  text-indent: 0.69444444rem;
+  padding-top: 0.53240741rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-top: -2rem;
+}
+.UP .up-list {
+  width: 42.08333333rem;
+  height: 4.97685185rem;
+  position: relative;
+  font-size: 0;
+}
+.UP .up-list .up-item {
+  width: 3.93518519rem;
+  height: 4.97685185rem;
+  margin: 0 0.37037037rem;
+  padding-top: 0.09259259rem;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.UP .up-list .up-item .up-o {
+  width: 0.69444444rem;
+  height: 0.69444444rem;
+  background: #de403f;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0.43981481rem;
+}
+.UP .up-list .up-item .up-hp {
+  width: 3.05555556rem;
+  height: 3.05555556rem;
+  border-radius: 50%;
+  vertical-align: top;
+}
+.UP .up-list .up-item .up-sicon {
+  width: 1.11111111rem;
+  height: 1.11111111rem;
+  position: absolute;
+  right: 0.30092593rem;
+  bottom: 1.85185185rem;
+}
+.UP .up-list .up-item .up-name {
+  display: block;
+  font-size: 0.74074074rem;
+  line-height: 1.85185185rem;
+  text-indent: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.friend-dongtai {
+  width: 100%;
+  padding: 1.38888889rem 0.69444444rem 0 0.69444444rem;
+  border-bottom: 0.02314815rem solid #ffffff;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.friend-dongtai .dongtai-hp {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin-right: 0.46296296rem;
+  float: left;
+}
+.friend-dongtai .dongtai-content {
+  width: 20.48611111rem;
+  float: left;
+}
+.friend-dongtai .dongtai-content .dongtai-content-top .dongtai-nameAndTime {
+  width: 16.2037037rem;
+  height: 2.5rem;
+}
+.friend-dongtai .dongtai-content .dongtai-content-top .dongtai-nameAndTime .dongtai-name {
+  font-size: 0.92592593rem;
+  color: #616264;
+  line-height: 1.38888889rem;
+  display: block;
+}
+.friend-dongtai .dongtai-content .dongtai-content-top .dongtai-nameAndTime .dongtai-name a {
+  max-width: 13.88888889rem;
+  color: #517cb1;
+}
+.friend-dongtai .dongtai-content .dongtai-content-top .dongtai-nameAndTime .dongtai-time {
+  font-size: 0.60185185rem;
+  color: #616264;
+  line-height: 1.11111111rem;
+  display: block;
+}
+.friend-dongtai .dongtai-content .dongtai-content-text {
+  font-size: 1.01851852rem;
+  line-height: 1.62037037rem;
+  margin: 0.48611111rem 0 0.27777778rem 0;
+}
+.friend-dongtai .dongtai-content .dongtai-content-pic {
+  width: 20.48611111rem;
+  display: inline-block;
+  font-size: 0;
+}
+.friend-dongtai .dongtai-content .dongtai-content-pic .dongtai-content-pics {
+  width: 6.68981481rem;
+  height: 6.68981481rem;
+  border-radius: 0.23148148rem;
+  margin: 0.20833333rem 0.20833333rem 0 0;
+  float: left;
+}
+.friend-dongtai .dongtai-content .dongtai-content-pic li:nth-child(3) .dongtai-content-pics {
+  margin-right: 0;
+}
+.friend-dongtai .dongtai-content .dongtai-content-pic li:nth-child(6) .dongtai-content-pics {
+  margin-right: 0;
+}
+.friend-dongtai .dongtai-content .dongtai-content-pic li:nth-child(9) .dongtai-content-pics {
+  margin-right: 0;
+}
+.friend-dongtai .dongtai-content .medium-music {
+  width: 20.48611111rem;
+  height: 3.33333333rem;
+  background: #e7e9e8;
+  border-radius: 0.41666667rem;
+  padding: 0.41666667rem 0 0.41666667rem 0.41666667rem;
+  box-sizing: border-box;
+  font-size: 0;
+}
+.friend-dongtai .dongtai-content .medium-music .medium-music-pic {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 0.46296296rem;
+  border-radius: 0.18518519rem;
+  float: left;
+}
+.friend-dongtai .dongtai-content .medium-music .medium-music-text {
+  width: 16.2037037rem;
+  height: 2.5rem;
+  float: left;
+}
+.friend-dongtai .dongtai-content .medium-music .medium-music-text .medium-music-tiele {
+  font-size: 0.87962963rem;
+  line-height: 1.43518519rem;
+}
+.friend-dongtai .dongtai-content .medium-music .medium-music-text .medium-music-name {
+  font-size: 0.74074074rem;
+  line-height: 0.97222222rem;
+  color: #747675;
+}
+.friend-dongtai .dongtai-content .signature {
+  font-size: 0.74074074rem;
+  line-height: 2.31481481rem;
+  color: #747675;
+}
+.friend-dongtai .dongtai-content .dongtai-btn {
+  width: 20.48611111rem;
+  height: 3.0787037rem;
+}
+.friend-dongtai .dongtai-content .dongtai-btn .dongtai-btns {
+  width: 4.16666667rem;
+  height: 3.0787037rem;
+  margin-right: 1.41203704rem;
+  font-size: 0.64814815rem;
+  line-height: 2.5462963rem;
+  text-indent: 1.38888889rem;
+  color: #747675;
+  float: left;
+}
+.friend-dongtai .dongtai-content .dongtai-btn .dongtai-btns:nth-child(1) {
+  background: url(../img/friend-pic/support.png) no-repeat 0.0462963rem 0.69444444rem;
+  background-size: 1.06481481rem 1.06481481rem;
+}
+.friend-dongtai .dongtai-content .dongtai-btn .dongtai-btns:nth-child(2) {
+  background: url(../img/friend-pic/comment.png) no-repeat 0rem 0.71759259rem;
+  background-size: 1.06481481rem 1.04166667rem;
+}
+.friend-dongtai .dongtai-content .dongtai-btn .dongtai-btns:nth-child(3) {
+  background: url(../img/friend-pic/share.png) no-repeat 0.02314815rem 0.74074074rem;
+  background-size: 1.01851852rem 1.01851852rem;
+}
+.friend-dongtai .dongtai-content .dongtai-btn .dongtai-option {
+  width: 1.38888889rem;
+  height: 3.0787037rem;
+  background: url(../img/friend-pic/option.png) no-repeat center 0.81018519rem;
+  background-size: 0.23148148rem 0.90277778rem;
+  float: right;
+}

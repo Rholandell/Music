@@ -1,0 +1,12 @@
+.radio-station-nav {
+  height: 6.04166667rem;
+  font-size: 0;
+  padding-top: 1.89814815rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+}
+.radio-station-nav .radio-station-nav-item {
+  width: 539px;
+  height: 179px;
+}
